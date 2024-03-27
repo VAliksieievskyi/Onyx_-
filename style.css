@@ -1,0 +1,102 @@
+  body{
+    font-family: Arial, Sans-serif;
+    font-size: 100%;
+    color: rgb(2, 137, 145);
+   background-color:#222831
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  ul li{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  header{
+    padding: 50px 0;
+    background-color:rgb(57, 62, 70);
+  }
+  h1{
+    color:rgb(2, 137, 145);
+    text-align: center;
+  }
+  .h1_type1{
+    color: orange;
+  }
+  nav{
+    background-color:rgb(57, 62, 70);
+    min-height: 64px;
+  }
+  nav li {
+    float: left;
+    width: 120px;
+  }
+  nav a {
+    display: block;
+    color: rgb(0, 173, 181);
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+  }
+  .button {
+    height:30px; 
+    background:rgb(0, 173, 181); 
+    border-radius: 1px;
+    border-color: aqua;
+    cursor:pointer;
+    }
+  .button_header {
+        height:26px; 
+        background: orange; 
+        border-radius: 1px;
+        border-color: orangered;
+        cursor:pointer;
+    }
+  nav li a:hover{
+    color: black;
+    background-color:rgba(212, 212, 207, 0.801);
+  }
+  p{
+    font-size: 16px;
+    line-height: 1.3em;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+    color:rgb(0, 173, 181);
+  }
+  .p_type1{
+    font-size: 16px;
+    line-height: 1.3em;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+    color: lightgrey;
+  }
+  .ul_type2{
+    color: lightgrey;
+    font-size: 16px;
+    line-height: 1.3em;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+    line-height: 1em;
+  }
+  footer{
+    background-color:rgb(57, 62, 70);
+    color: rgb(0, 173, 181);
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+  section{
+    background-color: rgb(71, 77, 87);
+  }
+  #Copyright{
+    color: rgb(0, 173, 181);
+    text-align: right;
+  }
+  td.number{
+    color: rgb(145, 67, 57);
+  }
+  td.text{
+    color:rgb(10, 126, 133) ;
+  }
